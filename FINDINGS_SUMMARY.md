@@ -1,0 +1,3 @@
+# Key Findings
+
+The sample retail dataset contains 1,000 orders across four product categories, four regions, three customer segments, and three sales channels in 2025. Total sales revenue is $360,030.04, total profit is $118,139.89, and the overall profit margin is 32.8%. Furniture is the highest-revenue category ($239,796.79), while East is the highest-revenue region ($102,056.35). The largest customer segment by revenue is Small Business ($125,827.93), and Marketplace is the leading sales channel ($134,062.94). Monthly sales peaked in 2025-06 ($38,685.19). These results are based on a generated practice dataset and should be treated as a demonstration of Excel analysis methods, not as evidence about an actual retailer.

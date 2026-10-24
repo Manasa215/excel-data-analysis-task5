@@ -1,0 +1,22 @@
+project: veda-excel-data-analysis-task5
+version: 1.0.0
+runtime: spreadsheet
+primary_artifact: Excel_Data_Analysis_Task5.xlsx
+source_data: data/retail_sales_sample.csv
+validation:
+  expected_records: 1000
+  required_columns:
+    - Order_ID
+    - Order_Date
+    - Region
+    - Category
+    - Sales_Revenue
+    - Profit
+  checks:
+    - unique_order_ids
+    - valid_dates
+    - nonnegative_quantity
+    - revenue_and_profit_present
+rollback:
+  source_of_truth: data/retail_sales_sample.csv
+  recovery: restore_last_committed_workbook_or_rebuild_from_source_csv

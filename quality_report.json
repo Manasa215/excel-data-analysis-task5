@@ -1,0 +1,27 @@
+{
+  "dataset_type": "synthetic practice data",
+  "record_count": 1000,
+  "column_count": 14,
+  "duplicate_order_ids": 0,
+  "missing_values_by_column": {
+    "Order_ID": 0,
+    "Order_Date": 0,
+    "Region": 0,
+    "City": 0,
+    "Category": 0,
+    "Product": 0,
+    "Customer_Segment": 0,
+    "Sales_Channel": 0,
+    "Quantity": 0,
+    "Unit_Price": 0,
+    "Discount_Rate": 0,
+    "Sales_Revenue": 0,
+    "Cost": 0,
+    "Profit": 0
+  },
+  "invalid_dates": 0,
+  "negative_quantities": 0,
+  "sales_revenue_total": 360030.04,
+  "profit_total": 118139.89,
+  "validation_status": "PASS"
+}
